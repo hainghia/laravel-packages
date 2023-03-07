@@ -1,0 +1,33 @@
+{
+    "name": "kukun/fibonacci",
+    "description": "Fibonacci",
+    "type": "library",
+    "keywords": [
+        "framework",
+        "web service"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hai Nghia",
+            "email": "hohainghia19@gmail.com",
+            "homepage": "https://github.com/hainghia/"
+        }
+    ],
+    "require": {
+        "php": "^7.2.5 || ^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kukun\\Fibonacci\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kukun\\Fibonacci\\FibonacciServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
