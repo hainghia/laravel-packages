@@ -30,3 +30,6 @@ cd packages/kukun/fibonacci
 
 composer init
 ```
+```shell
+composer require kukun/fibonacci
+```
